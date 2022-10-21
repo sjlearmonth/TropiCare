@@ -1,0 +1,50 @@
+body {
+  margin: 0;
+  font-family: "Domine";
+}
+
+h1 {
+  font-size: 3.5rem;
+  font-weight: 700;
+  line-height: 1.5;
+  color: #fff;
+}
+
+h2 {
+  font-weight: 400;
+  font-size: 1.2rem;
+  line-height: 2;
+  color: #fff;
+}
+
+p {
+  color: #fff;
+  font-size: 1rem;
+}
+
+/* Title */
+
+.navbar-brand {
+  font-family: "Domine";
+  font-weight: 700;
+  font-size: 3rem;
+}
+
+.title-image {
+  width: 100%;
+  border-radius: 5%;
+  border: 2px solid white;
+}
+
+.title-content {
+  padding: 5% 3% 5%;
+}
+
+.title-text {
+  padding-top: 3%;
+}
+
+#title {
+  background-color: teal;
+  padding-top: 2%;
+}
