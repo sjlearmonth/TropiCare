@@ -23,7 +23,6 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
   <script src="https://kit.fontawesome.com/693b9c10a5.js" crossorigin="anonymous"></script>
 
-
 </head>
 
 <body>
@@ -41,10 +40,10 @@
         <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
           <ul class="navbar-nav ms-auto">
             <li class="nav-item">
-              <a class="nav-link" href="#">Fish Types</a>
+              <a class="nav-link" href="#">Fish</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Tank Equipment</a>
+              <a class="nav-link" href="#">Equipment</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="">Suppliers</a>
@@ -58,28 +57,68 @@
 
 <!-- Title -->
 
-                <div class="row title-content">
-                  <div class="col-lg-6">
-                    <img class="title-image" src="images/title-image.jpg" alt="title image of tropical fish">
-                  </div>
-                  <div class="col-lg-6">
-                    <h1 class="title-text">Thinking of owning your own tropical fish?</h1>
-                    <h2>Look no further. All the information you need can be found here! Find out all
-                      about fish types, tank equipment, caring for your aquatic pets, feeding them,
-                      maintaining their correct living environment and introducing new fish.</h2>
-                      <h2>Join our community of tropical fish lovers and get advice from serious
-                      fish lovers.</h2>
-                  </div>
+      <div class="row title-content">
+                <div class="col-lg-6">
+                  <img class="title-image" src="images/title-image.jpg" alt="title image of tropical fish">
                 </div>
+                <div class="col-lg-6">
+                  <h1 class="title-header">Thinking of owning your own tropical fish?</h1>
+                  <h2 class="title-description">Look no further. All the information you need can be found here! Find out all
+                    about fish types, tank equipment, caring for your aquatic pets, feeding them,
+                    maintaining their correct living environment and introducing new fish.</h2>
+                  <h2 class="title-description">Join our community of tropical fish lovers and get advice from serious
+                    fish lovers.</h2>
                 </div>
+        </div>
+    </div>
 
   </section>
 
-  <section id="fish-types">
+  <section id="fish">
+
+    <div id="fish-carousel" class="carousel carousel-dark slide" data-bs-ride="false">
+      <div class="carousel-inner">
+        <div class="carousel-item active container-fluid">
+          <div class="row">
+            <div class="col-lg-6 fish-column">
+              <img class="fish-image" src="images/neon-tetra.jpeg" alt="Neon tetra image">
+              <em class="fish-caption">Neon tetra.</em>
+            </div>
+            <div class="col-lg-6">
+              <h2 class="fish-heading">The Neon Tetra</h2>
+              <h3 class="fish-description">Neons are among the most popular freshwater tropical fish due to their tiny size
+                and vibrant colors. They only grow about an inch or so long, and are a great fish
+                for a 10-gallon tank or bigger.</h3>
+            </div>
+          </div>>
+        </div>
+        <div class="carousel-item container-fluid">
+          <div class="row">
+            <div class="col-lg-6 fish-column">
+              <img class="fish-image" src="images/swordtail.jpeg" alt="Swordtail image">
+              <em class="fish-caption">Swordtail</em>
+            </div>
+            <div class="col-lg-6">
+              <h2 class="fish-heading">The Swordtail</h2>
+              <h3 class="fish-description">Swords are another pretty species that will grow to about two inches in length. They’re
+                peaceful community fish, though fairly active. You can tell the males apart from the
+                females by the elongated “swords” on their tails, hence their name.</h3>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <button class="carousel-control-prev" type="button" data-bs-target="#fish-carousel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#fish-carousel" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      </button>
+    </div>
 
   </section>
 
-  <section id="tank-equipment">
+  <section id="equipment">
 
   </section>
 
