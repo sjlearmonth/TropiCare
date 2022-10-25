@@ -3,17 +3,22 @@ body {
   font-family: "Domine";
 }
 
-p {
-  color: #fff;
-  font-size: 1rem;
-}
-
 /* Title */
+
+#title {
+  background-color: teal;
+  padding-top: 2%;
+}
 
 .navbar-brand {
   font-family: "Domine";
   font-weight: 700;
   font-size: 3rem;
+  padding-left: 3%;
+}
+
+.navbar-nav {
+  padding-right: 5%
 }
 
 .title-image {
@@ -41,20 +46,20 @@ p {
   color: #fff;
 }
 
-#title {
-  background-color: teal;
-  padding-top: 2%;
-}
-
 /* Fish */
 
 #fish {
+
+}
+
+.container-fluid {
   padding: 7% 15%;
 }
 
 .fish-image {
-  width: 80%;
-  display: inline-block;
+  width: 85%;
+  border-radius: 5%;
+  border: 8px solid lime;
 }
 
 .fish-caption {
@@ -69,10 +74,64 @@ p {
 
 .fish-heading {
   color: #000;
-  font-size: 1.5rem;
+  font-size: 3.5rem;
 }
 
 .fish-description {
   color: #000;
-  font-size: 1rem;
+  font-size: 1.4rem;
+}
+
+
+/* Equipment */
+
+/* Aquarium Tank */
+
+#equipment {
+  background-color: teal;
+}
+
+.tank-container {
+  padding-bottom: 5%;
+}
+
+.tank-image {
+  float: left;
+  width: 50%;
+  margin-right: 2%;
+  border-radius: 5%;
+  border: 8px solid gold;
+}
+
+.tank-header {
+  color: #fff;
+  font-size: 3.5rem;
+}
+.tank-description {
+  color: #fff;
+  line-height: 1.2;
+  font-size: 1.4rem;
+  text-align: justify;
+}
+
+/* Tank Cabinet */
+
+.cabinet-image {
+  float: right;
+  width: 50%;
+  margin-left: 2%;
+  border-radius: 5%;
+  border: 8px solid gold;
+}
+
+.cabinet-header {
+  color: #fff;
+  font-size: 3.5rem;
+}
+
+.cabinet-description {
+  color: #fff;
+  line-height: 1.2;
+  font-size: 1.4rem;
+  text-align: justify;
 }
