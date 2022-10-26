@@ -4,7 +4,6 @@ body {
 }
 
 /* Title */
-
 #title {
   background-color: teal;
   padding-top: 2%;
@@ -41,16 +40,13 @@ body {
 
 .title-description {
   font-weight: 400;
-  font-size: 1.2rem;
+  font-size: 1.4rem;
   line-height: 2;
   color: #fff;
 }
 
 /* Fish */
-
-#fish {
-
-}
+#fish {}
 
 .container-fluid {
   padding: 7% 15%;
@@ -82,11 +78,8 @@ body {
   font-size: 1.4rem;
 }
 
-
 /* Equipment */
-
 /* Aquarium Tank */
-
 #equipment {
   background-color: teal;
 }
@@ -107,6 +100,7 @@ body {
   color: #fff;
   font-size: 3.5rem;
 }
+
 .tank-description {
   color: #fff;
   line-height: 1.2;
@@ -115,7 +109,6 @@ body {
 }
 
 /* Tank Cabinet */
-
 .cabinet-image {
   float: right;
   width: 50%;
@@ -134,4 +127,81 @@ body {
   line-height: 1.2;
   font-size: 1.4rem;
   text-align: justify;
+}
+
+.cabinet-container {
+  padding-bottom: 5%;
+}
+
+/* Aquarium Heater */
+.heater-image {
+  float: left;
+  width: 50%;
+  margin-right: 2%;
+  border-radius: 5%;
+  border: 8px solid yellow;
+}
+
+.heater-header {
+  color: #fff;
+  font-size: 3.5rem;
+}
+
+.heater-description {
+  color: #fff;
+  line-height: 1.2;
+  font-size: 1.4rem;
+  text-align: justify;
+}
+
+.heater-container {
+  padding-bottom: 5%;
+}
+
+/* Suppliers */
+.suppliers-heading {
+  font-size: 3.5rem;
+  color: #000;
+  padding-top: 2%;
+}
+
+.supplier-logo {
+  width: 25%;
+  margin: 50px 0 80px;
+}
+
+#suppliers {
+  padding-bottom: 3%;
+  text-align: center;
+}
+
+/* Contact */
+.contact-header {
+  color: #fff;
+  padding: 2% 23% 2%;
+  text-align: justify;
+}
+
+.contact-form {
+  margin: 0 30%;
+}
+
+.contact-label {
+  color: #fff;
+  margin-bottom: 1%;
+}
+
+.contact-input {
+  width: 250px;
+  color: #000;
+  margin-bottom: 1%;
+}
+
+.contact-submit {
+  margin: 0 30%;
+}
+
+#contact {
+  background-color: teal;
+  padding-bottom: 5%;
 }
