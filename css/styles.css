@@ -3,6 +3,11 @@ body {
   font-family: "Domine";
 }
 
+a {
+  color: #8F8F8F;
+  text-decoration: none;
+}
+
 /* Title */
 #title {
   background-color: teal;
@@ -184,6 +189,7 @@ body {
 
 .contact-form {
   margin: 0 30%;
+  text-align: center;
 }
 
 .contact-label {
@@ -204,4 +210,19 @@ body {
 #contact {
   background-color: teal;
   padding-bottom: 5%;
+}
+
+/* Footer */
+
+#footer {
+
+}
+
+.footer-container {
+  text-align: center;
+}
+
+.social-icon {
+  color: #000;
+  margin: 20px 10px;
 }
